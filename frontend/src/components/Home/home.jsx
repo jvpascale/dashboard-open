@@ -49,9 +49,9 @@ export default function Home () {
                 <div className='divMain' id='dm2' draggable='false'>
                     <div className='introducao'>
                         <h1 className='tituloParag'>QUEM SOMOS NÓS?</h1>
-                        <p>Nós somos uma comunidade de jogos focada fazer web3 games acessíveis para as massas, ajudando você a extrair o máximo de suas oportunidades.</p>
-                        <p>Não importa se você é um jogador casual ou profissional, colecionador ou quer apenas ajudar a impulsionar o futuro dos jogos. Nos temos assets jogáveis, ferramentas analíticas e material educacional para construir seu caminho à glória.</p>
-                        <p>Não custa nada vencer conosco.</p>
+                        <p>Nós somos a Síntese Jr., uma Empresa Júnior de Sistemas de Informação da USP, formada por uma equipe de desenvolvedores dedicados e apaixonados por tecnologia. Fundada em 2017, nossa missão é oferecer soluções inovadoras e acessíveis em desenvolvimento web, unindo teoria e prática para transformar ideias em realidade.</p>
+                        <p>Nosso time é composto por estudantes da USP que, além de desenvolverem este site, aplicam o conhecimento adquirido na universidade em projetos reais para nossos clientes, sempre focando em qualidade, eficiência e inovação.</p>
+                        <p>Na Síntese Jr, acreditamos no impacto da tecnologia e no poder de uma boa solução digital para impulsionar empresas e negócios.</p>
                     </div>
                     <div className='jogosQuadrado' draggable='false'>
                         <div className='quadroJogos quatro' draggable='false'><span className='imgJogos'></span></div>
@@ -72,8 +72,8 @@ export default function Home () {
                     <div className='divEsquerda'>
                         <div className='introducao i2'>
                             <h1 className='tituloParag'>TRAGA SEU EMPENHO</h1>
-                            <p>Quanto tempo você já gastou jogando, sem verdadeiramente possuir os assets, a experiência ou a moeda que você conquistou no jogo?</p>
-                            <p>Os Web3 games te dão a liberdade para manter, trocar ou vender seus assets nos jogos e tokens. Mas, geralmente, para obter tokens é necessário utilizar colecionáveis digitais, o que pode ser um ponto de entrada custoso e intimidador. Por isso, nós te ajudaremos.</p>
+                            <p>Aqui na Síntese Jr., acreditamos que grandes resultados vêm de uma parceria sólida entre nossa equipe e nossos clientes. Se você está comprometido em trazer a sua ideia à vida, nós estamos prontos para torná-la realidade!</p>
+                            <p>Traga seu empenho, sua visão e seus objetivos. Juntos, podemos criar soluções digitais que reflitam sua dedicação e necessidades. Queremos colaborar com você, alinhar expectativas e garantir que o projeto atenda às suas expectativas, desde o planejamento até a entrega final.</p>
                             {/* <p>Iremos te guiar para os jogos mais divertidos e promissores, compartilhar os assets jogáveis para te ajudar a conquistar mais tokens e prover as ferramentas de análise e material educacional para "afiar suas armas"—de graça. Seu mérito é a chave para utilizar os melhores assets dos jogos.</p>
                             <p>Afinal, Web3 games devem ser acessíveis para todos.</p> */}
                             <img className='img-controle' src='../src/assets/images/controle-celular.png'></img>
@@ -88,8 +88,8 @@ export default function Home () {
                         <img draggable='false' id='p2' className='piramideSection4' src='../src/assets/images/elemGraficos/piramide2.png'></img>
                         <div className='introducao i3'>
                             <h1 className='tituloParag'>TENHA A NOSSA AJUDA</h1>
-                            <p>Iremos te guiar para os jogos mais divertidos e promissores, compartilhar os assets jogáveis para te ajudar a conquistar mais tokens e prover as ferramentas de análise e material educacional para "afiar suas armas"—de graça. Seu mérito é a chave para utilizar os melhores assets dos jogos.</p>
-                            <p>Afinal, Web3 games devem ser acessíveis para todos.</p>
+                            <p>Na Síntese Jr, oferecemos serviços de desenvolvimento web sob medida para atender às suas necessidades. Nossa equipe de desenvolvedores da USP está pronta para transformar a sua ideia em uma solução eficiente e moderna. Seja você uma empresa em crescimento ou alguém que precisa de um site profissional, estamos preparados para entregar qualidade com inovação.</p>
+                            <p>Entre em contato conosco e saiba como podemos colaborar para impulsionar o seu projeto! Estamos prontos para criar algo incrível juntos.</p>
                         </div>
                         <img draggable='false' id='p1' className='piramideSection4' src='../src/assets/images/elemGraficos/piramide1.png'></img>
                     </div>
