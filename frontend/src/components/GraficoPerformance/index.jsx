@@ -25,7 +25,7 @@ const GraficoPerformance = () => {
           const dias = Object.keys(infosAPI)
           
           for(var i = 0; i < dias.length; i++){
-            valoresDiarios.push(infosAPI[dias[i]].tesouraria)
+            valoresDiarios.push(infosAPI[dias[i]].total_investido)
             todasAsDatas.push(infosAPI[dias[i]].data)
             if(infosAPI[dias[i]].inicio_semana === true){
               data_semana.push(infosAPI[dias[i]].data)
