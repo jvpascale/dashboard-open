@@ -71,5 +71,5 @@ app.get('/performance/pag/:num', async (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+    console.log(`Server running at https://node-mongodb-api-dashboard-open.onrender.com`);
 });
