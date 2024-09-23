@@ -1,0 +1,116 @@
+#chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ 
+.btn-div{
+    display: flex;
+    justify-content: left;
+    align-items: center;   
+    gap: 0.5rem;
+   
+    svg{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.carteira-links a.carteira-link::after {
+    content: " · ";
+  }
+  
+  .carteira-links a.carteira-link:last-child::after {
+    content: "";
+  }
+
+h3{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    font-weight: normal;
+    font-size: 1.5rem;
+
+   
+   
+}
+
+h4{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: none;
+    font-weight: normal;
+    font-size: 0.875rem;
+    
+    
+   
+}
+
+.blockchain-legend a{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    font-weight: none;
+    font-weight: normal;
+    font-size: 0.875rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+.blockchain-legend a:hover {
+    border-bottom: 1px solid white;
+}
+
+.blockchain-legend a{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    font-weight: none;
+    font-weight: normal;
+    font-size: 0.875rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+.blockchain-legend a:hover {
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 500px) {
+    h3{
+        width: 100%;
+        text-align: center;
+    
+    }
+ }
+@media (max-width: 1200px) {
+   .collection-item{
+    font-size: 13px;
+   }
+   h4{
+    width: 70%;
+   }
+ }
+
+ @media (max-width: 500px) {
+    h4{
+        width: 100%;
+        text-align: center;
+    }  }
+
+.collection-item{
+    padding-top: 1rem;
+}
+
+@media (max-width: 500px) {
+    .blockchain-legend {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}

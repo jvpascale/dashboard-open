@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.botao-suavizar {
+    cursor: pointer;
+    width: 3.5rem;
+    height: 3.5rem;
+   
+    transform: scale(0.8);
+    transition: 0.2s;
+    color:white;
+}
+
+
+.botao-suavizar:hover {
+    transform: scale(1.0);
+    transition: 0.2s;
+}
+
+.div-botao-suavizar{
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    margin-right: 1rem;
+    margin-top: -2.5rem;
+}
+
+.auxiliar {
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+.auxiliar:hover {
+    transform: scale(1.0);
+}
+
+.div-botao-suavizar span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    padding-left: 2rem;
+
+}
+
+@media (max-width:500px) {
+    .div-botao-suavizar span{
+        font-size: 1rem !important;
+       
+    }
+    .div-botao-suavizar svg{
+        width: 30px;
+        height: 30px;
+    }
+
+    .div-botao-suavizar{
+        margin-top: 0px;
+        margin-right: 0 !important;
+    }
+}

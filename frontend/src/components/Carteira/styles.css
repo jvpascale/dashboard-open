@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+   scroll-behavior: smooth;
+}
+
+
+#valorAtivos {
+   
+   display: grid; 
+   grid-template-columns: repeat(4, 1fr); /* Define 3 colunas de largura igual */
+   gap:5.6rem; /* Espaçamento entre os itens */
+   align-items: top;
+   justify-content: center;
+   color: white;
+   margin-top: 20px; /* Espaçamento superior opcional */
+   font-family: "Poppins";
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 2rem;
+   white-space: nowrap;
+   
+   
+}
+
+
+
+#luz2{
+   width:30rem;
+   height:30rem;
+   position: fixed;
+   left:-5vw;
+   top: -5vw;
+   
+}
+
+/* Estilos específicos para cada ativo */
+.beacon-founders {
+   background-color: #007bff;
+   padding: 10px;
+   border-radius: 5px;
+   text-align: center; /* Centraliza o texto */
+}
+
+.axie-infinity {
+   background-color: #28a745;
+   padding: 10px;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.backwoods {
+   background-color: #6f42c1;
+   padding: 10px;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.pirates-nation-founders {
+   background-color: #dc3545;
+   padding: 10px;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.shrapnel {
+   background-color: #ffc107;
+   padding: 10px;
+   border-radius: 5px;
+   text-align: center;
+}
+
+/* sda aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+.apexcharts-legend.apexcharts-align-center.apx-legend-position-bottom {
+   display: none;
+}
+
+.text-performance {
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 1.4rem;
+   color: #14FFAA;
+   padding-left: 2rem;
+   white-space: nowrap;
+   
+   
+}
+
+.subtitulo-tesouraria {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#chart {
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+
+.carteira-container {
+   width: 100vw;
+   margin: 0 auto;
+   padding: 0 1rem;
+   box-sizing: border-box;
+}
+
+/* Ajustes responsivos */
+
+
+.tesouraria-da-dao {
+   font-size: 3rem;
+   /* Ajuste o tamanho da fonte conforme necessário */
+   font-family: "Tomorrow", sans-serif;
+   font-weight: bold;
+   font-weight: 500;
+   text-decoration: none;
+   background: linear-gradient(90deg, #14FFAA, #9154FF);
+   /* Gradiente desejado */
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   white-space:nowrap;
+}
+
+
+
+.info-direita {
+   display: flex;
+   align-items: center;
+   justify-content: right;
+   color: white;
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-size: 2.1rem;
+}
+
+.caixa-style {
+   padding: 0.5rem;
+   font-size: 1.5rem;
+   display: flex;
+   border: 1.5px solid #9154FF;
+   border-radius: 10px;
+   justify-content: left;
+   align-items: center;
+   gap: 0.5rem;
+}
+
+
+.caixa-style p {
+   margin: 0px;
+}
+
+.valor-total-style {
+   display: flex;
+   align-items: left;
+   margin-left: 3rem;
+   color: #14FFAA;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 1.2rem;
+   
+}
+
+.valor-total {
+   display: flex;
+   align-items: left;
+   margin-left: 3rem;
+   margin-top: 0px;
+   padding: 0px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   color: #FFFFFF;
+   font-size: 2.1rem;
+}
+
+
+      @media (max-width: 1200px) {
+         #valorAtivos {
+          gap: 2rem;
+          h3{
+               font-size: 1.3rem;
+         }
+          h4{
+               font-size: 13px;
+         }
+      }}
+      @media (max-width: 768px) {
+         #valorAtivos {
+            grid-template-columns: repeat(2, 1fr) !important;
+         }  }
+
+      @media (max-width: 500px) {
+         #valorAtivos {
+            grid-template-columns: repeat(1, 1fr) !important;
+            justify-items: center;
+            }  
+            
+         .tesouraria-da-dao {
+            font-size: 1.8rem !important;
+            }
+            
+         .subtitulo-tesouraria {
+            display: flex;
+            justify-content: center !important;
+            align-items: center;
+            flex-direction: column;
+            gap: 1rem;
+         }
+         .valor-total-style{
+            margin: 0 !important;
+         }
+         .valor-total{
+            margin: 0 !important;
+            justify-content: center;
+         }
+         #luz2{
+            z-index: -1 !important;
+         }
+         .text-performance{
+            font-size: 1.3rem;
+            text-align: center;
+            padding: 0 !important;
+            }
+         #chart{
+            padding-right: 1.5rem;
+            }
+            
+         .caixa-style{
+            font-size: 1rem !important;
+            }
+         
+
+            @media (max-width: 350px) {
+               .text-performance{
+                  font-size: 1.05rem;
+               }
+            }
+      }
